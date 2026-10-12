@@ -1,0 +1,33 @@
+name: Bug report
+description: Something looks wrong or the app crashed
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues here are **public**. Do not paste private data (file contents, names, e-mail addresses, license keys).
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Settings > App Information > Copy Environment Info (it contains no personal data). Paste it below if you can.
+      placeholder: "0.3.0"
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment info
+      description: Paste the result of "Copy Environment Info".
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead. Include the error code if there is one.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: If possible, a tiny made-up CSV that shows the problem (no real data).

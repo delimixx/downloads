@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or idea
+    url: https://github.com/delimixx/downloads/discussions
+    about: Use Discussions for questions and ideas. Issues are for bug reports only.
+  - name: Orders, licenses, privacy
+    url: https://delimixx.com/en/support/
+    about: Write to support@delimixx.com (orders and licenses) or privacy@delimixx.com (privacy requests), not here.
+  - name: Security problem
+    url: https://github.com/delimixx/downloads/security/advisories/new
+    about: Report a vulnerability privately. Do not open a public issue.
